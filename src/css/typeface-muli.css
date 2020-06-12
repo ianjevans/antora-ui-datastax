@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local("Muli"),
+    local("Muli-Regular"),
+    url(~typeface-muli/files/muli-latin-400.woff) format("woff"),
+    url(~typeface-muli/files/muli-latin-400.woff2) format("woff2")
+}
+
+@font-face {
+  font-family: "Muli";
+  font-style: italic;
+  font-weight: 400;
+  src:
+    local("Muli Italic"),
+    local("Muli-Italic"),
+    url(~typeface-muli/files/muli-latin-400.woff) format("woff"),
+    url(~typeface-muli/files/muli-latin-400.woff2) format("woff2")
+}
+
+@font-face {
+  font-family: "Muli";
+  font-style: bold;
+  font-weight: 400;
+  src:
+    local("Muli Bold"),
+    local("Muli-Bold"),
+    url(~typeface-muli/files/muli-latin-400.woff) format("woff"),
+    url(~typeface-muli/files/muli-latin-400.woff2) format("woff2")
+}
+
+@font-face {
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: 500;
+  src:
+    local("Muli Medium"),
+    local("Muli-Medium"),
+    url(~typeface-muli/files/muli-latin-500.woff) format("woff"),
+    url(~typeface-muli/files/muli-latin-500.woff2) format("woff2")
+}
+
+@font-face {
+  font-family: "Muli";
+  font-style: italic;
+  font-weight: 500;
+  src:
+    local("Muli Medium Italic"),
+    local("Muli-MediumItalic"),
+    url(~typeface-muli/files/muli-latin-500.woff) format("woff"),
+    url(~typeface-muli/files/muli-latin-500.woff2) format("woff2")
+}
+
+@font-face {
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: 600;
+  src:
+    local("Muli Bold"),
+    local("Muli-Bold"),
+    url(~typeface-muli/files/muli-latin-600.woff) format("woff"),
+    url(~typeface-muli/files/muli-latin-600.woff2) format("woff2")
+}
+
+@font-face {
+  font-family: "Muli";
+  font-style: italic;
+  font-weight: 600;
+  src:
+    local("Muli Bold Italic"),
+    local("Muli-BoldItalic"),
+    url(~typeface-muli/files/muli-latin-500.woff) format("woff"),
+    url(~typeface-muli/files/muli-latin-500.woff2) format("woff2")
+}

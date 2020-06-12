@@ -25,7 +25,9 @@ body {
 .navbar-brand .navbar-item:first-child,
 .navbar-brand .navbar-item:first-child a {
   color: var(--navbar-font-color);
-  font-size: calc(22 / var(--rem-base) * 1rem);
+  font-size: calc(18 / var(--rem-base) * 1rem);
+  padding-left: 0.15rem;
+
 }
 
 .navbar-brand .separator {
@@ -59,6 +61,8 @@ body {
   display: flex;
   flex-shrink: 0;
   height: var(--navbar-height);
+  margin-left: .2rem;
+  margin-top: .5rem;
 }
 
 .navbar-burger {

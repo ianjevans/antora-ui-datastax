@@ -16,24 +16,50 @@
   --color-jet-70: #222;
   --color-jet-80: #191919;
   --color-black: #000;
+
+  /* DataStax colors */
+  --color-ds-orange: #1F2438;
+  --color-light-orange: #FF9D2C;
+  --color-night-blue: #1F2438;
+  --color-dark-blue: #064773;
+  --color-medium-blue: #005992;
+  --color-ds-blue: #0055AB;
+  --color-navy-blue: #3B4260;
+  --color-light-navy: #A3AAC8;
+  --color-bright-blue: #007BF7;
+  --color-light-blue: #52E1FF;
+  --color-sky-blue: #ACCEE7;
+  --color-blue-gray-4: #484D60;
+  --color-blue-gray-3: #6A7086;
+  --color-blue-gray-2: #999DAD;
+  --color-blue-gray-1: #C8CBD3;
+  --color-light-gray: #F8F9FA;
+  --color-medium-gray: #C8CBD3;
+  --color-dark-gray: #6C6E75;
+  --color-very-dark-gray: #363B3D;
+  --color-near-black: #2D3133;
+  --color-light-green: #51DDBD;
+  --color-green: green;
+  --color-red: red;
+
   /* fonts */
   --rem-base: 18; /* used to compute rem value from desired pixel value (e.g., calc(18 / var(--rem-base) * 1rem) = 18px) */
   --body-font-size: 1.0625em; /* 17px */
   --body-font-size--desktop: 1.125em; /* 18px */
   --body-font-size--print: 0.9375em; /* 15px */
   --body-line-height: 1.15;
-  --body-font-color: var(--color-jet-70);
-  --body-font-family: "Roboto", sans-serif;
-  --body-font-weight-bold: 500;
+  --body-font-color: var(--color-near-black);
+  --body-font-family: "Muli", "Proxima Nova", "Work Sans", sans-serif;
+  --body-font-weight-bold: 600;
   --monospace-font-family: "Roboto Mono", monospace;
   --monospace-font-weight-bold: 500;
   /* base */
   --body-background: var(--color-white);
-  --panel-background: var(--color-smoke-30);
-  --panel-border-color: var(--color-smoke-90);
-  --scrollbar-thumb-color: var(--color-gray-10);
+  --panel-background: var(--color-light-gray);
+  --panel-border-color: var(--color-blue-gray-3);
+  --scrollbar-thumb-color: var(--color-lgiht-gray);
   /* navbar */
-  --navbar-background: var(--color-jet-80);
+  --navbar-background: var(--color-night-blue);
   --navbar-font-color: var(--color-white);
   --navbar_hover-background: var(--color-black);
   --navbar-button-background: var(--color-white);
@@ -42,79 +68,80 @@
   --navbar-menu-border-color: var(--panel-border-color);
   --navbar-menu-background: var(--color-white);
   --navbar-menu-font-color: var(--body-font-color);
-  --navbar-menu_hover-background: var(--color-smoke-50);
+  --navbar-menu_hover-background: var(--color-sky-blue);
+  --navbar-logo: url(../img/logo.png);
   /* nav */
   --nav-background: var(--panel-background);
-  --nav-border-color: var(--color-gray-10);
+  --nav-border-color: var(--color-light-gray);
   --nav-line-height: 1.35;
-  --nav-heading-font-color: var(--color-jet-30);
-  --nav-muted-color: var(--color-gray-70);
-  --nav-panel-divider-color: var(--color-smoke-90);
-  --nav-secondary-background: var(--color-smoke-70);
+  --nav-heading-font-color: var(--color-night-blue);
+  --nav-muted-color: var(--color-blue-gray-3);
+  --nav-panel-divider-color: var(--color-blue-gray-4);
+  --nav-secondary-background: var(--color-blue-gray-3);
   /* toolbar */
   --toolbar-background: var(--panel-background);
   --toolbar-border-color: var(--panel-border-color);
-  --toolbar-font-color: var(--color-gray-70);
-  --toolbar-muted-color: var(--color-gray-30);
-  --page-version-menu-background: var(--color-smoke-70);
-  --page-version-missing-font-color: var(--color-gray-30);
+  --toolbar-font-color: var(--color-blue-gray-3);
+  --toolbar-muted-color: var(--color-blue-gray-1);
+  --page-version-menu-background: var(--color-blue-gray-3);
+  --page-version-missing-font-color: var(--color-blue-gray-1);
   /* toc */
   --toc-font-color: var(--nav-muted-color);
   --toc-heading-font-color: var(--doc-font-color);
   --toc-border-color: var(--panel-border-color);
   --toc-line-height: 1.2;
   /* admonitions */
-  --caution-color: #a0439c;
+  --caution-color: var(--color-navy-blue);
   --caution-on-color: var(--color-white);
-  --important-color: #d32f2f;
+  --important-color: var(--color-red);
   --important-on-color: var(--color-white);
-  --note-color: #217ee7;
+  --note-color: var(--color-bright-blue);
   --note-on-color: var(--color-white);
-  --tip-color: #41af46;
+  --tip-color: var(--color-green);
   --tip-on-color: var(--color-white);
-  --warning-color: #e18114;
+  --warning-color: var(--color-ds-orange);
   --warning-on-color: var(--color-white);
   /* doc */
-  --doc-font-color: var(--color-jet-50);
+  --doc-font-color: var(--color-night-blue);
   --doc-font-size: inherit;
   --doc-font-size--desktop: calc(17 / var(--rem-base) * 1rem);
   --doc-line-height: 1.6;
   --doc-margin: 0 auto;
   --doc-margin--desktop: 0 2rem;
-  --heading-font-color: var(--color-jet-80);
+  --heading-font-color: var(--color-night-blue);
   --heading-font-weight: normal;
   --alt-heading-font-weight: var(--body-font-weight-bold);
   --section-divider-color: var(--panel-border-color);
   --link-font-color: #1565c0;
   --link_hover-font-color: #104d92;
   --link_unresolved-font-color: var(--important-color);
-  --abstract-background: var(--color-smoke-70);
-  --abstract-font-color: var(--color-jet-20);
+  --abstract-background: var(--color-blue-gray-3);
+  --abstract-font-color: var(--color-navy-blue);
   --abstract-border-color: var(--panel-border-color);
   --admonition-background: var(--panel-background);
   --admonition-label-font-weight: var(--body-font-weight-bold);
-  --caption-font-color: var(--color-gray-70);
+  --caption-font-color: var(--color-navy-blue);
   --caption-font-weight: var(--body-font-weight-bold);
   --code-background: var(--panel-background);
   --code-font-color: var(--body-font-color);
   --example-background: var(--color-white);
-  --example-border-color: var(--color-gray-70);
+  --example-border-color: var(--color-blue-gray-3);
   --kbd-background: var(--panel-background);
-  --kbd-border-color: var(--color-gray-10);
+  --kbd-border-color: var(--color-light-gray);
   --pre-background: var(--panel-background);
   --pre-border-color: var(--panel-border-color);
-  --pre-annotation-font-color: var(--color-gray-10);
+  --pre-annotation-font-color: var(--color-light-gray);
   --quote-background: var(--panel-background);
-  --quote-border-color: var(--color-gray-70);
-  --quote-font-color: var(--color-gray-70);
-  --quote-attribution-font-color: var(--color-gray-30);
-  --sidebar-background: var(--color-smoke-90);
+  --quote-border-color: var(--color-blue-gray-3);
+  --quote-font-color: var(--color-blue-gray-3);
+  --quote-attribution-font-color: var(--color-blue-gray-1);
+  --sidebar-background: var(--color-sky-blue);
   --table-border-color: var(--panel-border-color);
   /* footer */
   --footer-line-height: var(--doc-line-height);
-  --footer-background: var(--color-smoke-90);
-  --footer-font-color: var(--color-gray-70);
-  --footer-link-font-color: var(--color-jet-80);
+  --footer-background: var(--color-blue-gray-4);
+  --footer-font-color: var(--color-blue-gray-3);
+  --footer-link-font-color: var(--color-night-blue);
   /* dimensions and positioning */
   --navbar-height: calc(63 / var(--rem-base) * 1rem);
   --toolbar-height: calc(45 / var(--rem-base) * 1rem);
