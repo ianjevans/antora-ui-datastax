@@ -1,4 +1,4 @@
-name: Grunt build and commit updated stylesheets
+name: bundle
 
 on: [push]
 
