@@ -6,7 +6,7 @@
 :url-project: https://github.com/ianjevans/antora-ui-datastax
 :url-preview:
 :url-ci-pipelines: {url-project}/workflows
-:img-ci-status: {url-project}/workflows/Grunt%20build%20and%20commit%20updated%20stylesheets/badge.svg
+:img-ci-status: {url-project}/workflows/bundle/badge.svg
 // External URLs:
 :url-antora: https://antora.org
 :url-antora-docs: https://docs.antora.org
