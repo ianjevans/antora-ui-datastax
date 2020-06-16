@@ -12,12 +12,13 @@ jobs:
 
     - name: Compile with Grunt
       uses: elstudio/actions-js-build/build@v2
-      args: "bundle"
+      with:
+        args: "bundle"
 
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v2
-        with:
-          # Artifact name
-          name: DataStax UI bundle
-          # A file, directory or wildcard pattern that describes what to upload
-          path: build/ui-bundle.zip
+      with:
+        # Artifact name
+        name: DataStax UI bundle
+        # A file, directory or wildcard pattern that describes what to upload
+        path: build/ui-bundle.zip
