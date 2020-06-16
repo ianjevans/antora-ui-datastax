@@ -6,7 +6,7 @@
     local("Muli"),
     local("Muli-Regular"),
     url(~typeface-muli/files/muli-latin-400.woff) format("woff"),
-    url(~typeface-muli/files/muli-latin-400.woff2) format("woff2")
+    url(~typeface-muli/files/muli-latin-400.woff2) format("woff2");
 }
 
 @font-face {
@@ -17,7 +17,7 @@
     local("Muli Italic"),
     local("Muli-Italic"),
     url(~typeface-muli/files/muli-latin-400.woff) format("woff"),
-    url(~typeface-muli/files/muli-latin-400.woff2) format("woff2")
+    url(~typeface-muli/files/muli-latin-400.woff2) format("woff2");
 }
 
 @font-face {
@@ -28,7 +28,7 @@
     local("Muli Bold"),
     local("Muli-Bold"),
     url(~typeface-muli/files/muli-latin-400.woff) format("woff"),
-    url(~typeface-muli/files/muli-latin-400.woff2) format("woff2")
+    url(~typeface-muli/files/muli-latin-400.woff2) format("woff2");
 }
 
 @font-face {
@@ -39,7 +39,7 @@
     local("Muli Medium"),
     local("Muli-Medium"),
     url(~typeface-muli/files/muli-latin-500.woff) format("woff"),
-    url(~typeface-muli/files/muli-latin-500.woff2) format("woff2")
+    url(~typeface-muli/files/muli-latin-500.woff2) format("woff2");
 }
 
 @font-face {
@@ -50,7 +50,7 @@
     local("Muli Medium Italic"),
     local("Muli-MediumItalic"),
     url(~typeface-muli/files/muli-latin-500.woff) format("woff"),
-    url(~typeface-muli/files/muli-latin-500.woff2) format("woff2")
+    url(~typeface-muli/files/muli-latin-500.woff2) format("woff2");
 }
 
 @font-face {
@@ -61,7 +61,7 @@
     local("Muli Bold"),
     local("Muli-Bold"),
     url(~typeface-muli/files/muli-latin-600.woff) format("woff"),
-    url(~typeface-muli/files/muli-latin-600.woff2) format("woff2")
+    url(~typeface-muli/files/muli-latin-600.woff2) format("woff2");
 }
 
 @font-face {
@@ -72,5 +72,5 @@
     local("Muli Bold Italic"),
     local("Muli-BoldItalic"),
     url(~typeface-muli/files/muli-latin-500.woff) format("woff"),
-    url(~typeface-muli/files/muli-latin-500.woff2) format("woff2")
+    url(~typeface-muli/files/muli-latin-500.woff2) format("woff2");
 }

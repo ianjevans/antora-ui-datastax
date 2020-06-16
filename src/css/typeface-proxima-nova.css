@@ -5,7 +5,7 @@
   src:
     local("Proxima Nova Light"),
     local("Proxima Nova-Light"),
-    url(~font-proxima-nova/files/ProximaNova-Light.woff) format("woff")
+    url(~font-proxima-nova/files/ProximaNova-Light.woff) format("woff");
 }
 
 @font-face {
@@ -15,7 +15,7 @@
   src:
     local("Proxima Nova Italic"),
     local("Proxima Nova-Italic"),
-    url(~font-proxima-nova/files/ProximaNova-LightIt.woff) format("woff")
+    url(~font-proxima-nova/files/ProximaNova-LightIt.woff) format("woff");
 }
 
 @font-face {
@@ -25,7 +25,7 @@
   src:
     local("Proxima Nova Semibold"),
     local("Proxima Nova-Semibold"),
-    url(~font-proxima-nova/files/ProximaNova-Semibold.woff) format("woff")
+    url(~font-proxima-nova/files/ProximaNova-Semibold.woff) format("woff");
 }
 
 @font-face {
@@ -35,7 +35,7 @@
   src:
     local("Proxima Nova Regular"),
     local("Proxima Nova-Regular"),
-    url(~font-proxima-nova/files/ProximaNova-Regular.woff) format("woff")
+    url(~font-proxima-nova/files/ProximaNova-Regular.woff) format("woff");
 }
 
 @font-face {
@@ -45,5 +45,5 @@
   src:
     local("Proxima Nova Regular Italic"),
     local("Proxima Nova-RegularItalic"),
-    url(~font-proxima-nova/files/ProximaNova-RegularIt.woff) format("woff")
+    url(~font-proxima-nova/files/ProximaNova-RegularIt.woff) format("woff");
 }
