@@ -15,7 +15,7 @@
   --color-jet-50: #333;
   --color-jet-70: #222;
   --color-jet-80: #191919;
-  --color-llpgreen: #2a8a28;
+  --color-llpgreen: #90bd50;
   --color-black: #000;
   /* fonts */
   --rem-base: 18; /* used to compute rem value from desired pixel value (e.g., calc(18 / var(--rem-base) * 1rem) = 18px) */
@@ -34,10 +34,11 @@
   --panel-border-color: var(--color-smoke-90);
   --scrollbar-thumb-color: var(--color-gray-10);
   /* navbar */
-  /* --navbar-background: var(--color-jet-80); */
+  --navbar2-background: var(--color-jet-80);
   --navbar-background: var(--color-llpgreen);
   --navbar-font-color: var(--color-white);
   --navbar_hover-background: var(--color-black);
+  --navbar2_hover-background: var(--color-white);
   --navbar-button-background: var(--color-white);
   --navbar-button-border-color: var(--panel-border-color);
   --navbar-button-font-color: var(--body-font-color);
@@ -119,6 +120,7 @@
   --footer-link-font-color: var(--color-jet-80);
   /* dimensions and positioning */
   --navbar-height: calc(63 / var(--rem-base) * 1rem);
+  --navbar2-height: calc(30 / var(--rem-base) * 1rem);
   --toolbar-height: calc(45 / var(--rem-base) * 1rem);
   --drawer-height: var(--toolbar-height);
   --body-top: var(--navbar-height);

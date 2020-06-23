@@ -3,7 +3,7 @@ html.is-clipped--navbar {
 }
 
 body {
-  padding-top: var(--navbar-height);
+  padding-top: calc(var(--navbar-height) + var(--navbar2-height));
 }
 
 .navbar {
@@ -11,6 +11,18 @@ body {
   color: var(--navbar-font-color);
   font-size: calc(16 / var(--rem-base) * 1rem);
   height: var(--navbar-height);
+  position: fixed;
+  top: var(--navbar2-height);
+  width: 100%;
+  word-wrap: break-word;
+  z-index: var(--z-index-navbar);
+}
+
+.navbar2 {
+  background: var(--navbar2-background);
+  color: var(--navbar-font-color);
+  font-size: calc(12 / var(--rem-base) * 1rem);
+  height: var(--navbar2-height);
   position: fixed;
   top: 0;
   width: 100%;
@@ -53,6 +65,11 @@ body {
     background: var(--navbar_hover-background);
     color: var(--navbar-font-color);
   }
+
+  .navbar2-item.has-dropdown:hover .navbar2-link {
+    background: var(--navbar2_hover-background);
+    color: var(--navbar-font-color);
+  }
 }
 
 .navbar-brand {
@@ -62,6 +79,15 @@ body {
   height: var(--navbar-height);
   margin-left: 0.2rem;
   margin-top: 0.5rem;
+}
+
+.navbar2-brand {
+  align-items: stretch;
+  display: flex;
+  flex-shrink: 0;
+  height: var(--navbar2-height);
+  margin-left: 0.2rem;
+  margin-bottom: 0.1rem;
 }
 
 .navbar-burger {
@@ -127,6 +153,15 @@ body {
   display: block;
   line-height: var(--doc-line-height);
   padding: 0.5rem 1rem;
+  position: relative;
+}
+
+.navbar2-item,
+.navbar2-link {
+  color: var(--navbar-font-color);
+  display: block;
+  line-height: var(--doc2-line-height);
+  padding: 0.1rem 1rem;
   position: relative;
 }
 
