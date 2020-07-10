@@ -10,6 +10,7 @@
 // External URLs:
 :url-antora: https://antora.org
 :url-antora-docs: https://docs.antora.org
+:url-antora-default-ui: https://gitlab.com/antora/antora-ui-default
 :url-git: https://git-scm.com
 :url-git-dl: {url-git}/downloads
 :url-gulp: http://gulpjs.com
@@ -20,6 +21,9 @@
 :url-source-maps: https://developer.mozilla.org/en-US/docs/Tools/Debugger/How_to/Use_a_source_map
 
 image:{img-ci-status}[gulp bundle status, link={url-ci-pipelines}]
+
+This branch of the repository is a custom version of the {url-antora-default-ui}[Antora Default UI], for the Antora version 
+of the Apache Cassandra open source documentation. If you want to make changes, create a "feature" branch off of _oss_, make the required changes, and then create a pull request (PR) against the _oss_ branch. If the PR is accepted and merged, a new `ui-bundle.zip` package file will be created and published.
 
 This project is a UI bundle that can be used by {url-antora}[Antora] to generate a documentation site.
 You can see a preview of the default UI at {url-preview}.
