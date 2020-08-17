@@ -11,5 +11,3 @@
 ** xref:list-styles.adoc[Lists]
 ** xref:sidebar-styles.adoc[Sidebars]
 ** xref:ui-macro-styles.adoc[UI Macros]
-
-* xref:installing.adoc[Installing]
